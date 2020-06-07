@@ -7,9 +7,10 @@ communication medium. We use a series of well defined steps called cipher which 
 <br/>
 
 Do you know the first cipher machine was developed in 1920's. Well we might heard of enigma used by allies to broadcast 
-encrypted messages. For a single encoded message there were assumed total of approx 160 million million chances and only 
-one of them is correct. Later Alan Turing a great mathematician comes up with intelligent way of cracking the message 
-during WorldWarII and saved millions of lives. <br/>
+encrypted messages. For a single encoded message there were assumed total of approx 159 million million million chances 
+and only one of them is correct. Later these were decoded by mainly two great mathematicians of Gordan Welchman 
+(one of founding members of modern computing and networking) and Alan Turing (father of modern computer science and AI).
+ <br/>
 
 As a software engineer we might have come across various industry standard encryption algorithms used to protect our data.
 Such as DES, RSA, Blowfish, AES, Twofish, SHA1, IDEA, MD5.... <br/>
