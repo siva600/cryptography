@@ -43,7 +43,7 @@ Encryption Algorithms:
    Suppose s is a sequence of capital letters and spaces, and that s does not begin with a space. We encode s as a 
    number in base 27 as follows:
    a single space corresponds to 0 , the letter A to 1, B to 2, ..... z to 26.
-   Thus 'RUN NIKITA' becomes a number written in base 27:
+   Thus 'Hi XORLD' becomes a number written in base 27:
 ```
 e.g;
    "HI XORLD" - 27<sup>7</sup>.8 + 27<sup>6</sup>.9 + 27<sup>5</sup>.0 + 27<sup>4</sup>.23 + 27<sup>3</sup>.15 + 
@@ -76,7 +76,7 @@ e.g;
     Let P = (p0, p1, p2, ..., pm−1) be a non-empty plaintext consisting of m elements, 
     
     Steps:
-        a) Convert the elements of the plaintext into numbers P (including any notations : ' ' (blank), #, !, ?, ..., ) <br/>
+        a) Convert the elements of the plaintext into numbers P (including any notations : ' ' (blank), #, !, ?, ..., )
         b) Use the secret key k to produce a ciphertext C:
             C = P + k (mod n) ( n may be chosen as the base, the number of alphabets or, 
                                 if using the ASCII table : n = 256).
