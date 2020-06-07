@@ -8,8 +8,8 @@ communication medium. We use a series of well defined steps called cipher which 
 
 Do you know the first cipher machine was developed in 1920's. Well we might heard of enigma used by allies to broadcast 
 encrypted messages. For a single encoded message there were assumed total of approx 159 million million million chances 
-and only one of them is correct. Later these were decoded by mainly two great mathematicians of Gordan Welchman 
-(one of founding members of modern computing and networking) and Alan Turing (father of modern computer science and AI).
+and only one of them is correct. Later these were decoded in 1940's by mainly two great mathematicians of Gordan Welchman 
+(his work led to development of Internet and Cloud) and Alan Turing (father of modern computer science and AI).
  <br/>
 
 As a software engineer we might have come across various industry standard encryption algorithms used to protect our data.
