@@ -43,14 +43,14 @@ The Basic ways of Encryption:
    
    To recover the letters from the deciaml number, repeatedly divide the 27 and read off the letter corresponding to each 
    remainder.
-   87182673304  = 27 * 3228987900 + 4 
-   3228987900 =  27 * 119592144 + 12
-   119592144 = 27 * 4429338 + 18
-   4429338 = 27 * 164049 + 15
-   164049 = 27 * 6075 + 24
-   6075 = 27 * 225 + 0
-   225 = 27 * 8 + 9
-   8 = 27 * 0 + 8
+   87182673304  = 27 * 3228987900 + 4 <br/>
+   3228987900 =  27 * 119592144 + 12  <br/>
+   119592144 = 27 * 4429338 + 18      <br/>
+   4429338 = 27 * 164049 + 15         <br/>
+   164049 = 27 * 6075 + 24            <br/>
+   6075 = 27 * 225 + 0                <br/>
+   225 = 27 * 8 + 9                   <br/>
+   8 = 27 * 0 + 8                     <br/>
    
    
    Here the pattern is ( from top to bottom ) 4, 12, 18, 15, 24, 0, 9, 8 == "HI XORLD". 
