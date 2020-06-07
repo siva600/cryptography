@@ -56,8 +56,8 @@ The Basic ways of Encryption: <br/>
    
    
    Here the pattern is ( from top to bottom ) 4, 12, 18, 15, 24, 0, 9, 8 == "HI XORLD". <br/>
-   The base can be 256, 128.. and alpha numeric can be mapped with ASCII like 'a' -> 97...<br/><br/>
-   
+   The base can be 256, 128.. and alpha numeric can be mapped with ASCII like 'a' -> 97...<br/>
+   Refer to file: [basic_encryption.py](basic_encryption.py) <br/><br/>
    
    
    
