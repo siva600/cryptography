@@ -23,7 +23,7 @@ def decode1(m, d, p):
     while n != 0:
         v.append(chr(n % 256))
         n //= 256  # this replace n by floor (n/256)
-        return ''.join(v)
+    return ''.join(v)
 
 
 def encode(s, e, p):

@@ -1,5 +1,7 @@
+# Execute the code in https://sagecell.sagemath.org/
 # Encoding, input: string s (plaintext), an integer k (shift number),
 # output: string v (ciphertext)
+
 
 def encode(s,k):
 	s=str(s)
@@ -13,6 +15,7 @@ def encode(s,k):
 # Decoding, input: string s (ciphertext), an integer k (shift number: the key),
 # output: string v (plaintext)
 #
+
 
 def decode(s,k):
 	s=str(s)
