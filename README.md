@@ -36,16 +36,6 @@ Reference:
 
 https://www.technologyreview.com/2019/05/30/65724/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/
 
-1. Symmetric Encryption
-    a. Caesar Encryption
-    b. Exponential Encryption ( Deffie - Hellman Encryption)
-2. Asymmetric Encryption
-    a. RSA Encryption
-    b. RSA Digital Signature
-    c. Elgamal Encryption
-    d. Elliptic Curve cryptography
-
-
 Pre-requisites: Number Theory algorithms, Algebra, Probability, basic calculus. 
 Programming: Python for Implementing the algorithms, testing encoding and decoding messages. 
 Though some problems could not be solved using programming, I personally recommend using https://sagecell.sagemath.org/ 
@@ -64,6 +54,16 @@ For Decipher
         D : Jm −→ Jm  
       such that  D (E(x)) = x 
 ```
+
+Categories: <br/>
+1. Symmetric Encryption <br/>
+    a. Caesar Encryption. Explanation: [caesar_encryption_theory.md](caesar_encryption_theory) <br/>
+    b. Exponential Encryption ( Deffie - Hellman Encryption) <br/>
+2. Asymmetric Encryption <br/>
+    a. RSA Encryption & RSA Digital Signature <br/>
+    b. Elgamal Encryption <br/>
+    c. Elliptic Curve cryptography <br/>
+
 
    ![](images/io.png)   
 
@@ -97,24 +97,3 @@ e.g;
    Here the pattern is ( from top to bottom ) 4, 12, 18, 15, 24, 0, 9, 8 == "HI XORLD". 
    The base can be 256, 128.. and alpha numeric can be mapped with ASCII like 'a' -> 97...
    Refer to file: [basic_encryption.py](basic_encryption.py) 
-
-```text
-
-2. The simplest encryption : Caesar encryption
-
-    Caesar encryption is a type of shift cryptosystem, is a symmetric-
-    key cryptosystem in which each secret key k is an element of Z/nZ, it is clear that the key space Z/nZ consists of n 
-    possible keys.
-    Let P = (p0, p1, p2, ..., pm−1) be a non-empty plaintext consisting of m elements, 
-    
-    Steps:
-        a) Convert the elements of the plaintext into numbers P (including any notations : ' ' (blank), #, !, ?, ..., )
-        b) Use the secret key k to produce a ciphertext C:
-            C = P + k (mod n) ( n may be chosen as the base, the number of alphabets or, 
-                                if using the ASCII table : n = 256).
-                                The ciphertext is C, may convert to alphabets before sending.
-        c) Decryption Key
-            P = C + k (mod n)
-            and convert to the alphabets to get the original plaintext.
-        
-```
